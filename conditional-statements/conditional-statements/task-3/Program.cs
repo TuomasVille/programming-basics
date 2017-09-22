@@ -8,7 +8,7 @@ namespace task_3
         {
     Console.OutputEncoding = System.Text.Encoding.UTF8;
             // Define instructions
-            Console.WriteLine("Ohjelma selvittää onko syötetty luku parillinen vai pariton.");
+            Console.WriteLine("Ohjelma selvittää onko syötetty luku parillinen vai pariton, positiivinen vai negatiivinen.");
             bool isNumber;
             do
             {
@@ -32,7 +32,7 @@ namespace task_3
                 }
                 else
                 {
-                    Console.WriteLine($"Numero {evaluatedNumber} on nolla");
+                    Console.WriteLine($"Numero {evaluatedNumber} on pariton");
                 }
                 if (evaluatedNumber < 0)
                 {
@@ -42,6 +42,7 @@ namespace task_3
                 {
                     Console.WriteLine($"Numero {evaluatedNumber} on positiivinen");
                 }
+               
                 
             } while (isNumber == true);
             Console.ReadKey();
