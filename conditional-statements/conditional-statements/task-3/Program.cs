@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace task_2
+namespace task_3
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
+    Console.OutputEncoding = System.Text.Encoding.UTF8;
             // Define instructions
             Console.WriteLine("Ohjelma selvittää onko syötetty luku parillinen vai pariton.");
             bool isNumber;
@@ -31,10 +31,18 @@ namespace task_2
                     Console.WriteLine($"Syötit luvun{evaluatedNumber}, se on pariton");
                 }
                 else
-
                 {
                     Console.WriteLine($"Numero {evaluatedNumber} on nolla");
                 }
+                if (evaluatedNumber < 0)
+                {
+                    Console.WriteLine($"Numero {evaluatedNumber} on negatiivinen");
+                }
+                else if (evaluatedNumber > 0)
+                {
+                    Console.WriteLine($"Numero {evaluatedNumber} on positiivinen");
+                }
+                
             } while (isNumber == true);
             Console.ReadKey();
         }
@@ -43,12 +51,6 @@ namespace task_2
             
 
             
-
-
-
-
-
-
 
 
 
