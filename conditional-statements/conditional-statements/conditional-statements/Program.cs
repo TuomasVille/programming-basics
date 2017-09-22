@@ -40,6 +40,7 @@ namespace conditional_statements
                 {
                     Console.WriteLine("Syötit muuta kuin numeron");
                 }
+
             } while (isNumber == true);
             Console.ReadKey();
            
