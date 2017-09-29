@@ -7,46 +7,64 @@ namespace task_4
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
-            // Define instructions
-            Console.WriteLine("Lajittele luvut nousevaan järjestykseen.");
-            bool isNumber;
-            do
+            Console.WriteLine("Syötä Numero 1:");
+            string numero1 = Console.ReadLine();
+            int numx = int.Parse(numero1);
+
+            Console.WriteLine("Syötä Numero 2:");
+            string numero2 = Console.ReadLine();
+            int numy = int.Parse(numero2);
+
+            Console.WriteLine("Syötä Numero 3:");
+            string numero3 = Console.ReadLine();
+            int numz = int.Parse(numero3);
+
+            if (numx < numy)
             {
-
-                Console.Write("Syötä luku X ,");
-                Console.Write("Syötä luku Y ,");
-                Console.Write("Syötä luku Z.");
-                // define variables
-                string userInput;
-                userInput = Console.ReadLine();
-
-                int evaluatedNumber;
-                isNumber = int.TryParse(userInput, out evaluatedNumber);
-
-                // programming logics
-                if (isNumber == true)
+                if (numx < numz)
                 {
-                    if (evaluatedNumber < 0)
+                    if (numy < numz)
                     {
-                        Console.WriteLine($"Numero {evaluatedNumber} on negatiivinen");
-                    }
-                    else if (evaluatedNumber > 0)
-                    {
-                        Console.WriteLine($"Numero {evaluatedNumber} on positiivinen");
+                        Console.WriteLine($"{numx}, {numy}, {numz}");
                     }
                     else
                     {
-                        Console.WriteLine($"Numero {evaluatedNumber} on nolla");
+                        Console.WriteLine($"{numx}, {numz}, {numy}");
                     }
                 }
                 else
                 {
-                    Console.WriteLine("Syötit muuta kuin numeron");
+                    Console.WriteLine($"{numz}, {numx}, {numy}");
                 }
-
-            } while (isNumber == true);
-            Console.ReadKey();
-
+            }
+            else    
+            {
+                if (numx < numz)
+                {
+                    Console.WriteLine($"{numy}, {numx}, {numz}");
+                }
+                else
+                {
+                    if (numy < numz)
+                    {
+                        Console.WriteLine($"{numy}, {numz}, {numx}");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{numy}, {numz}, {numx}");
+                    }
+                    
+                }
+            }
+            {
+                Console.ReadKey();
+            }
+       
+       
         }
+        
     }
 }
+
+
+          
