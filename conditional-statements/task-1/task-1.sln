@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Toistorakenne_jatkuu", "4. Toistorakenne_jatkuu\4. Toistorakenne_jatkuu.csproj", "{7B1A61F0-D70A-4430-B54C-A06D62AEC4D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Toistorakenne_jatkuu", "4. Toistorakenne_jatkuu\4. Toistorakenne_jatkuu.csproj", "{7B1A61F0-D70A-4430-B54C-A06D62AEC4D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-2", "task-2\task-2.csproj", "{73347FDB-DC5F-4752-9294-AD132598F422}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task-2", "task-2\task-2.csproj", "{73347FDB-DC5F-4752-9294-AD132598F422}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-3", "task-3\task-3.csproj", "{2B530C2A-E146-4512-BB5F-3FECBEE84AAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-4", "task-4\task-4.csproj", "{65F5E709-C3C5-437E-BE0E-892A1EFFAAAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-5", "task-5\task-5.csproj", "{3C56A458-D415-4FDA-AB78-1F2CACD9D82E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-6", "task-6\task-6.csproj", "{92CB317F-DE3A-49D7-A3ED-D73A74AA3215}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{73347FDB-DC5F-4752-9294-AD132598F422}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73347FDB-DC5F-4752-9294-AD132598F422}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73347FDB-DC5F-4752-9294-AD132598F422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B530C2A-E146-4512-BB5F-3FECBEE84AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B530C2A-E146-4512-BB5F-3FECBEE84AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B530C2A-E146-4512-BB5F-3FECBEE84AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B530C2A-E146-4512-BB5F-3FECBEE84AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F5E709-C3C5-437E-BE0E-892A1EFFAAAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F5E709-C3C5-437E-BE0E-892A1EFFAAAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F5E709-C3C5-437E-BE0E-892A1EFFAAAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F5E709-C3C5-437E-BE0E-892A1EFFAAAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C56A458-D415-4FDA-AB78-1F2CACD9D82E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C56A458-D415-4FDA-AB78-1F2CACD9D82E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C56A458-D415-4FDA-AB78-1F2CACD9D82E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C56A458-D415-4FDA-AB78-1F2CACD9D82E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92CB317F-DE3A-49D7-A3ED-D73A74AA3215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92CB317F-DE3A-49D7-A3ED-D73A74AA3215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92CB317F-DE3A-49D7-A3ED-D73A74AA3215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92CB317F-DE3A-49D7-A3ED-D73A74AA3215}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
