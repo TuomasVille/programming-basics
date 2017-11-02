@@ -34,7 +34,6 @@ namespace task_4
                     Console.WriteLine("Luvun " + luku + " summa on " + summa);
                 }
                 Console.ReadKey();
-
             }
         }
     }

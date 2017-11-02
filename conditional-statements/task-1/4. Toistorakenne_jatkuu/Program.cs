@@ -14,9 +14,6 @@ namespace _4._Toistorakenne_jatkuu
                 Console.WriteLine($"{i}\t\t{Math.Round(Math.Sqrt(i),2)}");
             }
             Console.ReadKey();
-        }
-
-
-         
+        }    
     }
 }

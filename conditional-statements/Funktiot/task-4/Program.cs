@@ -20,8 +20,10 @@ namespace task_4
             bool isNumber;
             int max = 0;
             int num = 0;
+            string result = "";
 
             Console.WriteLine("Syötä 10 lukua:");
+            Console.WriteLine();
 
             for (int i = 0; i < 10; i++)
             {
@@ -33,12 +35,16 @@ namespace task_4
                     {
                         max = num;
                     }
+                    result += $"{num} ";
                 }
                 else
                 {
                     Console.WriteLine("Väärä syöte, syötä positiivinen luku");
                 }
             }
+            Console.WriteLine();
+            Console.WriteLine($"Syötit seuraavat luvut: {result}");
+            Console.WriteLine();
             return max;
         }
     }

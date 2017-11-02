@@ -30,9 +30,6 @@ namespace task_1
                 {
                     Console.WriteLine("Luvun " + luku + " kertoma on " + kertoma);
                 }
-
-
-
             }
         }
     }

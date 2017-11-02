@@ -24,11 +24,11 @@ namespace task_2
                 // programming logics
                 if (evaluatedNumber % 2 == 0)
                 {
-                    Console.WriteLine($"Syötit luvun{evaluatedNumber}, se on parillinen");
+                    Console.WriteLine($"Syötit luvun {evaluatedNumber}, se on parillinen");
                 }
                 else if (evaluatedNumber % 2 == 1)
                 {
-                    Console.WriteLine($"Syötit luvun{evaluatedNumber}, se on pariton");
+                    Console.WriteLine($"Syötit luvun {evaluatedNumber}, se on pariton");
                 }
                 else
 

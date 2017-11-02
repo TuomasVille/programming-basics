@@ -26,8 +26,6 @@ namespace task_3
                 }     
             }
             Console.ReadKey();
-        }
-          
-
+        }     
     }
 }

@@ -23,9 +23,6 @@ namespace task_6
             Console.WriteLine($"Kuutonen arvottiin {n} kertaa.");
 
             Console.ReadKey();
-            
-
-
         }
     }
 }

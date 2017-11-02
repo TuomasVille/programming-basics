@@ -24,11 +24,11 @@ namespace task_3
                 // programming logics
                 if (evaluatedNumber % 2 == 0)
                 {
-                    Console.WriteLine($"Syötit luvun{evaluatedNumber}, se on parillinen");
+                    Console.WriteLine($"Numero {evaluatedNumber} on parillinen");
                 }
                 else if (evaluatedNumber % 2 == 1)
                 {
-                    Console.WriteLine($"Syötit luvun{evaluatedNumber}, se on pariton");
+                    Console.WriteLine($"Numero {evaluatedNumber} on pariton");
                 }
                 else
                 {
@@ -38,7 +38,7 @@ namespace task_3
                 {
                     Console.WriteLine($"Numero {evaluatedNumber} on negatiivinen");
                 }
-                else if (evaluatedNumber > 0)
+                else if (evaluatedNumber >= 0)
                 {
                     Console.WriteLine($"Numero {evaluatedNumber} on positiivinen");
                 }

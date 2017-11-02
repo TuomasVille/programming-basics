@@ -36,8 +36,6 @@ namespace task_3
                 Console.WriteLine("Parittomien summa = " + pariton);
                 Console.WriteLine("Parillisten summa = " + parillinen);
                 Console.ReadKey();
-
-
             }
         }
     }

@@ -53,8 +53,6 @@ namespace task_5
                 }
             }
             Console.ReadKey();
-
         }
-        
     }
 }

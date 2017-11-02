@@ -56,13 +56,8 @@ namespace task_4
                     
                 }
             }
-            {
-                Console.ReadKey();
-            }
-       
-       
-        }
-        
+            Console.ReadKey();
+        }    
     }
 }
 

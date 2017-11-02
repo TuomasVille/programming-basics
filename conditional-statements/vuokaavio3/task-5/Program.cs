@@ -49,11 +49,7 @@ namespace task_5
             }
             Console.WriteLine($"Parittomien summa = " + pariton);
             Console.WriteLine($"Parillisten summa = " + parillinen);
-
-            Console.ReadKey();
-
-
-            
+            Console.ReadKey();           
         }
     }
 }
