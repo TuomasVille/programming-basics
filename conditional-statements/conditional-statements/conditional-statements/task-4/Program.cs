@@ -7,6 +7,7 @@ namespace task_4
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.WriteLine("Ohjelma lajittelee luvut nousevaan järjestykseen: ");
             Console.WriteLine("Syötä Numero 1:");
             string numero1 = Console.ReadLine();
             int numx = int.Parse(numero1);
